@@ -16,7 +16,7 @@ module divider (A, B, Output);
 		.Output(ReciprocalB)
 	);
 
-	multiplier mult
+	Multiplier mult
 	(
 		.A(A),
 		.B(ReciprocalB),
