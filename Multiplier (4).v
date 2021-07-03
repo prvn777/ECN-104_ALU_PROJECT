@@ -37,7 +37,7 @@ module Multiplier(A, B, Output);
   assign Output[22:0] = MantissaO[22:0];
 
   /* Connect modules to inputs and corresponding output wires */
-  Multiplication_normaliser norm1
+  Multiplication_Normaliser norm1
   (
 	.in_e(i_e),
 	.in_m(i_m),
