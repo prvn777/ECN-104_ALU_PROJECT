@@ -1,4 +1,4 @@
-module ADDITION_NORMALISER(input_e, input_m, output_e, output_m);
+module addition_normaliser(input_e, input_m, output_e, output_m);
   
   input [7:0] input_e;
   input [24:0] input_m;
