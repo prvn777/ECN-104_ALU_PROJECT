@@ -29,7 +29,7 @@
     op = 3'b011;
 
 		
-		$display ("Opcode: 011, Operation: MUL");
+		$display ("OPERATIONCODE: 011, Operation: MUL");
 		111111101;
 		b = 32'b01101111100001111011001011000110;
 		correct = 32'b00111001111101100111111111110100;
