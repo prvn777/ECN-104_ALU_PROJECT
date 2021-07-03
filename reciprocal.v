@@ -1,5 +1,4 @@
-  
-module reciprocal (Input, Output);
+ module reciprocal (Input, Output);
 	input [31:0] Input;
 
 	output [31:0] Output;
@@ -34,7 +33,7 @@ module reciprocal (Input, Output);
 	assign S0_N0_in = {~S0_2D_out[31], S0_2D_out[30:0]};
 
 	//S0
-	multiplier S0_2D
+	Multiplier S0_2D
 	(
 		.A(C2),
 		.B(D),
@@ -63,7 +62,7 @@ module reciprocal (Input, Output);
 		.Output(S1_2min_DN0_out)
 	);
 
-	multiplier S1_N1
+	Multiplier S1_N1
 	(
 		.A(N0),
 		.B(S1_2min_DN0_out),
@@ -71,7 +70,7 @@ module reciprocal (Input, Output);
 	);
 
 	//S2
-	multiplier S2_DN1
+	Multiplier S2_DN1
 	(
 		.A(D),
 		.B(N1),
@@ -85,7 +84,7 @@ module reciprocal (Input, Output);
 		.Output(S2_2minDN1_out)
 	);
 
-	multiplier S2_N2
+	Multiplier S2_N2
 	(
 		.A(N1),
 		.B(S2_2minDN1_out),
