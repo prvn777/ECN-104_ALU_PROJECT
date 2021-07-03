@@ -93,8 +93,8 @@ module adder(A, B, Output);
 		else if (A_exponent < B_exponent) begin            // B is bigger
         O_exponent = B_exponent;
         O_sign = B_sign;
-        D = B_exponent - A_exponent;
-        tmp_mantissa = A_mantissa >> D;
+        diff = B_exponent - A_exponent;
+        tmp_mantissa = A_mantissa >> diff;
         if (A_sign == B_sign) begin
           O_mantissa = B_mantissa + tmp_mantissa;
         end 
