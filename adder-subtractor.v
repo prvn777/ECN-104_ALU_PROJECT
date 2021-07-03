@@ -27,7 +27,7 @@ module adder(A, B, Output);
   reg  [24:0] i_M;
 
  
-  ADDITION_NORMALISER norml
+  addition_normaliser norml
   (
     .input_e(i_E),
     .input_m(i_M),
