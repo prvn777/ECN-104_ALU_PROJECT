@@ -1,6 +1,6 @@
 // Arithmetic modules
 `include "adder-subtracter.v"
-`include "multiplier.v"
+`include "Multiplier.v"
 `include "divider.v"
 // Helper modules
 `include "addition_normaliser.v"
