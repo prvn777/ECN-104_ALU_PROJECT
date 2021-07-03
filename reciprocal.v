@@ -48,7 +48,7 @@
 	);
 
 	//S1
-	multiplier S1_DN0
+	Multiplier S1_DN0
 	(
 		.A(D),
 		.B(N0),
