@@ -1,12 +1,14 @@
-// Arithmetic modules
+
 `include "adder-subtracter.v"
 `include "Multiplier.v"
 `include "divider.v"
-// Helper modules
+
 `include "addition_normaliser.v"
-`include "multiplication_normaliser.v"
+`include "Multiplication_Normaliser.v"
 `include "reciprocal.v"
-// Logic modules
+`include "Booth_Multiplier.v"
+`include "Booth.v"
+
 `include "and.v"
 `include "or.v"
 `include "not.v"
