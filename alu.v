@@ -80,7 +80,7 @@ module alu(clk, A, B, OPERATIONCODE, O);
 		.Output(AdderOutput)
 	);
 
-	multiplier M1
+	Multiplier M1
 	(
 		.A(MultiplierAInput),
 		.B(MultiplierBInput),
