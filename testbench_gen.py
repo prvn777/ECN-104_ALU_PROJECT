@@ -90,12 +90,12 @@ elif(op == "001"):
     f.write("001")
 elif(op == "010"):
     operation = "DIV"
-    os.rename(r'alu_tb.v', r'mul_tb.v')
+    os.rename(r'alu_tb.v', r'div_tb.v')
     changeModule("div")
     f.write("010")
 elif(op == "011"):
     operation = "MUL"
-    os.rename(r'alu_tb.v', r'div_tb.v')
+    os.rename(r'alu_tb.v', r'mul_tb.v')
     changeModule("mul")
     f.write("011")
 elif(op == "100"):
